@@ -34,8 +34,8 @@ try:
 except ImportError:
     pass
 
-from compat import *  # for: any, next
-import widgets
+from .compat import *  # for: any, next
+from . import widgets
 
 
 class UnknownLength: pass
